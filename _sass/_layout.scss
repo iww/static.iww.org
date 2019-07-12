@@ -20,6 +20,15 @@ header {
   text-align: center;
 }
 
+#globe {
+  position: absolute; /* fixed */
+  padding-top: 25px;
+  padding-bottom: 75px;
+  width: 200px;
+  left: 50%;
+  margin-left: -100px;
+}
+
 .wrapper {
   margin-right: auto;
   margin-left:  auto;
@@ -36,15 +45,6 @@ header {
   height: 100%;
   object-fit: cover;
   overflow: hidden;
-}
-
-#landingGlobe {
-  position: absolute; /* fixed */
-  padding-top: 25px;
-  padding-bottom: 75px;
-  width: 200px;
-  left: 50%;
-  margin-left: -100px;
 }
 
 #landingFilter {
