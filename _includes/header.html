@@ -1,8 +1,6 @@
 <header>
-  <section class="globeHeader">
-   <object class="globe" data="{{ site.baseurl }}/assets/globe.svg" type="image/svg+xml"></object>
-   <p id="siteTitle">Industrial Workers of the World</p>
-  </section>
+  <object class="globe" data="{{ site.baseurl }}/assets/globe.svg" type="image/svg+xml"></object>
+  <p id="siteTitle">Industrial Workers of the World</p>
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
   {%- if page_paths -%}
