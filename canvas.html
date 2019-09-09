@@ -1,4 +1,6 @@
- <!DOCTYPE html>  
+---
+---
+<!DOCTYPE html>  
  <head>  
  <title>Playing YouTube video on HTML5 canvas</title>  
  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width" />  
@@ -23,9 +25,8 @@
  </head>  
  <body>  
   <div style="display: none;">  
-   <video id="video" autoplay="true" loop="true">  
-    <source src="./video/BigBuckBunny_640x360.ogv" type="video/ogg" />  
-    <source src="./video/BigBuckBunny_640x360.mp4" type="video/mp4" />  
+   <video id="video" autoplay="true" loop="true">   
+    <source src="{{ site.baseurl }}/assets/landing.mp4" type="video/mp4" />  
    </video>  
   </div>  
   <canvas id="canvas"></canvas>  
