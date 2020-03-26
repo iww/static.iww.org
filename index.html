@@ -6,6 +6,13 @@ layout: landing
   Your browser does not support HTML5 video.
 </video>
 <script>
+$( document ).ready(function() {
+
+Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
+    get: function () {
+        return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
+    }
+});
 $('body').on('click touchstart', function () {
             const videoElement = document.getElementById('landingVideo');
             if (videoElement.playing) {
@@ -14,6 +21,7 @@ $('body').on('click touchstart', function () {
                 videoElement.play();
             }
     });
+});
 </script>
 <div id="landingFilter"></div>
 <div class="landingWrapper">
