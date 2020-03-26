@@ -1,2 +1,20 @@
-- name: Eric Mill
-  url: konklone
+- name: About
+  url: {{ site.baseurl }}/about
+
+- name: FAQ
+  url: #
+
+- name: Join
+  url: https://iww.org/join
+
+- name: Directory
+  url: #
+
+- name: History
+  url: #
+
+- name: Store
+  url: https://store.iww.org
+
+- name: Industrial Worker
+  url: https://industrialworker.org
