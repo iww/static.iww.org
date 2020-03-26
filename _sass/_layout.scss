@@ -118,6 +118,21 @@ header {
   opacity: 0.6;
 }
 
+*::-webkit-media-controls-panel {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+*::-webkit-media-controls-play-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     color: #fdfdfd;
