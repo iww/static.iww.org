@@ -9,12 +9,8 @@ layout: landing
 <div class="landingWrapper">
   <object class="globe" data="{{ site.baseurl }}/assets/landing-globe.svg" type="image/svg+xml"></object>
   <span class="landingNavigation">
-   <a href="{{ site.baseurl }}/about"><button ontouchstart="">About</button></a>
-   <a href="#"><button ontouchstart="">FAQ</button></a>
-   <a href="https://iww.org/join"><button ontouchstart="">Join</button></a>
-   <a href="#"><button ontouchstart="">Directory</button></a>
-   <a href="#"><button ontouchstart="">History</button></a>
-   <a href="https://store.iww.org"><button ontouchstart="">Store</button></a>
-   <a href="https://industrialworker.org"><button ontouchstart="">Industrial Worker</button></a>
+{% for item in site.data.navigation %}
+   <a href="{{ item.url }}"><button ontouchstart="">{{ item.name }}</button></a>
+{% endfor %}
   </span>
 </div>
