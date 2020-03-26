@@ -109,6 +109,18 @@ header {
   mix-blend-mode: screen;
 }
 
+.landingNavigation button:hover::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: white;
+  border-radius: 0.3em;
+  content: '';
+  mix-blend-mode: color-burn;
+}
+
 .landingNavigation button:active {
   -webkit-transition-duration: 0.12s;
   transition-duration: 0.12s;
@@ -116,32 +128,6 @@ header {
   color: #000;
   mix-blend-mode: screen;
   opacity: 0.6;
-}
-
-*::-webkit-media-controls-panel {
-  display: none!important;
-  -webkit-appearance: none;
-}
-
-*::-webkit-media-controls-play-button {
-  display: none!important;
-  -webkit-appearance: none;
-}
-
-*::-webkit-media-controls-start-playback-button {
-  display: none!important;
-  -webkit-appearance: none;
-}
-
-video {
-    &::-webkit-media-controls {
-        display:none !important;
-    }
-
-    &::-webkit-media-controls-start-playback-button {
-        display: none!important;
-        -webkit-appearance: none;
-    }
 }
 
 @media (prefers-color-scheme: dark) {
