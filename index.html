@@ -6,17 +6,13 @@ layout: landing
   Your browser does not support HTML5 video.
 </video>
 <script>
-const videoElement = document.getElementById('landingVideo');
-    videoElement.addEventListener('suspend', () => {
-        // suspend invoked
-        // show play button
-        // iphone is in low power mode
-    });
-
-    videoElement.addEventListener('play', () => {
-        // video is played
-        // remove play button UI
-        // iphone is not in low power mode
+$('body').on('click touchstart', function () {
+            const videoElement = document.getElementById('landingVideo');
+            if (videoElement.playing) {
+            }
+            else {
+                videoElement.play();
+            }
     });
 </script>
 <div id="landingFilter"></div>
