@@ -133,6 +133,17 @@ header {
   -webkit-appearance: none;
 }
 
+video {
+    &::-webkit-media-controls {
+        display:none !important;
+    }
+
+    &::-webkit-media-controls-start-playback-button {
+        display: none!important;
+        -webkit-appearance: none;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     color: #fdfdfd;
