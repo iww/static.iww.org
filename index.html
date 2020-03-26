@@ -1,10 +1,6 @@
 ---
 layout: landing
 ---
-<video id="landingVideo" muted loop playsinline autoplay>
-  <source src="{{ site.baseurl }}/assets/landing.mp4" poster="{{ site.baseurl }}/assets/landing.png" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
 <script>
 $( document ).ready(function() {
 
@@ -23,6 +19,11 @@ $('body').on('click touchstart', function () {
     });
 });
 </script>
+
+<video id="landingVideo" muted loop playsinline autoplay>
+  <source src="{{ site.baseurl }}/assets/landing.mp4" poster="{{ site.baseurl }}/assets/landing.png" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
 <div id="landingFilter"></div>
 <div class="landingWrapper">
   <object class="globe" data="{{ site.baseurl }}/assets/landing-globe.svg" type="image/svg+xml"></object>
