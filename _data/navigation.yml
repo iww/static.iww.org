@@ -1,5 +1,5 @@
 - name: About
-  url: {{ site.baseurl }}/about
+  url: /about
 
 - name: FAQ
   url: #
