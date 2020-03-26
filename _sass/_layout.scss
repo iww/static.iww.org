@@ -104,8 +104,11 @@ header {
 .landingNavigation button:hover {
   -webkit-transition-duration: 0.12s;
   transition-duration: 0.12s;
-  background-color: #fff;
   color: #000;
+  position: relative;
+  border: none;
+  background: none;
+  outline: none;
   mix-blend-mode: screen;
 }
 
@@ -115,8 +118,7 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  background: white;
-  border-radius: 0.3em;
+  background: #fff;
   content: '';
   mix-blend-mode: color-burn;
 }
