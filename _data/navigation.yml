@@ -1,9 +1,6 @@
 - name: About
   url: /about
 
-- name: FAQ
-  url: #
-
 - name: Join
   url: https://iww.org/join
 
