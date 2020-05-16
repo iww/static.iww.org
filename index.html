@@ -7,7 +7,9 @@ layout: landing
 </video>
 <div id="landingFilter"></div>
 <div class="landingWrapper">
-  <object class="globe" data="{{ site.baseurl }}/assets/landing-globe.svg" type="image/svg+xml"></object>
+  <a href="https://iww.org">
+    <object class="globe" data="{{ site.baseurl }}/assets/landing-globe.svg" type="image/svg+xml"></object>
+  </a>
   <span class="landingNavigation">
 {% for item in site.data.navigation %}
    <a href="{{ item.url }}"><button ontouchstart="">{{ item.name }}</button></a>
