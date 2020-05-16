@@ -1,5 +1,5 @@
-- name: About
-  url: /about
+- name: Membership
+  url: https://iww.org/membership
 
 - name: Join
   url: https://iww.org/join
@@ -15,3 +15,9 @@
 
 - name: Industrial Worker
   url: https://industrialworker.org
+
+- name: Solidaridad
+  url: https://iwwsolidaridad.org
+
+- name: IWW Forum
+  url: https://forum.iww.org
