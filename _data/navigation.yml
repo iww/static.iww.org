@@ -7,8 +7,8 @@
 - name: Directory
   url: https://iww.org/directory
 
-- name: History
-  url: https://iww.org/history
+- name: Resources
+  url: https://iww.org/resources
 
 - name: Store
   url: https://store.iww.org
