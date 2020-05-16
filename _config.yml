@@ -1,1 +1,9 @@
+title: Industrial Workers of the World
+baseurl: ""
+url: "https://static.iww.org"
+description: Static IWW resources.
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
