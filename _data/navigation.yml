@@ -1,3 +1,6 @@
+- name: Home
+  url: https://iww.org
+
 - name: Membership
   url: https://iww.org/membership
 
