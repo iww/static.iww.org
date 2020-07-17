@@ -4,9 +4,6 @@
 - name: Membership
   url: https://iww.org/membership
 
-- name: Join
-  url: https://iww.org/join
-
 - name: Directory
   url: https://iww.org/directory
 
