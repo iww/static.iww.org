@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 371.51 371.51">
   <defs>
     <style>
-      circle:last-of-type, path, line {
+      circle.inner, path, line {
         fill: none;
         stroke: #fff;
         stroke-miterlimit: 10;
@@ -12,7 +12,7 @@
         fill: #000;
       }
 
-      circle:last-of-type {
+      circle.inner {
         stroke-width: 15px;
       }
 
