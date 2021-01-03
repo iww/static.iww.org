@@ -4,12 +4,12 @@
     <style>
       circle.inner, path, line {
         fill: none;
-        stroke: #fff;
+        stroke: #fdfdfd;
         stroke-miterlimit: 10;
       }
 
       circle {
-        fill: #000;
+        fill: #000000;
       }
 
       circle.inner {
@@ -25,7 +25,7 @@
       }
 
       polygon {
-        fill: #fff;
+        fill: #fdfdfd;
       }
     </style>
   </defs>
